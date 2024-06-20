@@ -1,16 +1,9 @@
 # Simple table component build with Lit
 
-*View Lit Playground:*
-https://lit.dev/playground/#view-mode=code&gist=5638bc680a41c789017576578363c481
----
-layout: example.11ty.cjs
-title: <table> ⌲ Example ⌲ Basic
-tags: example
-name: Basic
-description: A basic example
+**View Lit Playground:** **[redirect to the playground](https://lit.dev/playground/#view-mode=code&gist=5638bc680a41c789017576578363c481)**
 ---
 
-<h3>HTML</h3>
+<h3>A basic example</h3>
 
 ```html
 <my-table>
