@@ -70,3 +70,4 @@ A wrapper component for table rows. It acts as a wrapper for <tr> elements witho
   <table-cell>Data 3</table-cell>
 </table-row>
 ```
+This repository was built with the help of the [lit-starter-ts](https://github.com/lit/lit-starter-ts) repo.
