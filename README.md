@@ -9,26 +9,6 @@ This repository contains a set of Lit.js components to create accessible and cus
 - `<table-cell>`: The cell component used for both headers and body cells.
 - `<table-row>`: The row component that wraps cells within a table row.
 
-## Basic usage
-
-```html
-<my-table>
-  <table-cell type="title">Header 1</table-cell>
-  <table-cell type="title">Header 2</table-cell>
-  <table-cell type="title">Header 3</table-cell>
-  <table-row>
-    <table-cell>Data 1</table-cell>
-    <table-cell>Data 2</table-cell>
-    <table-cell>Data 3</table-cell>
-  </table-row>
-  <table-row>
-    <table-cell type="strong">Data 4</table-cell>
-    <table-cell>Data 5</table-cell>
-    <table-cell>Data 6</table-cell>
-  </table-row>
-</my-table>
-```
-
 ## Components
 
 ### `<my-table>`
@@ -39,7 +19,7 @@ A wrapper component for table headers and rows.
 
 - `table-cell` and `table-row` components to be used inside.
 
-#### Example
+#### Example:
 
 ```html
 <my-table>
