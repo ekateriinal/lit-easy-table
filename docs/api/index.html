@@ -1,0 +1,140 @@
+
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><my-element> ⌲ Docs</title>
+    <link rel="stylesheet" href="../docs.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Mono">
+    <link href="../prism-okaidia.css" rel="stylesheet" />
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="/node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="../my-element.bundled.js"></script>
+  </head>
+  <body>
+    
+<header>
+  <h1>&lt;table></h1>
+  <h2>A simple table web component</h2>
+</header>
+    
+<nav>
+  <a href="../">Home</a>
+  <a href="../examples/">Examples</a>
+  <a href="">API</a>
+</nav>
+    <div id="main-wrapper">
+      <main>
+        
+     <h1>API</h1>
+     
+       <h2>&lt;my-table></h2>
+       <div>
+         A table is a wrapper component for header, rows and cells.
+       </div>
+       
+       
+   <h3>Properties</h3>
+   <table>
+     <tr>
+       <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+     </tr>
+     
+       <tr>
+         <td>headerCells</td><td></td><td></td><td>TableCell[]</td><td>[]</td>
+       </tr>
+     
+       <tr>
+         <td>bodyRows</td><td></td><td></td><td>{cells: TableCell[]}[]</td><td>[]</td>
+       </tr>
+     
+   </table>
+   
+       
+   <h3>Methods</h3>
+   <table>
+     <tr>
+       <th>Name</th><th>Parameters</th><th>Description</th><th>Return</th>
+     </tr>
+     
+       <tr>
+         <td>initializeTable</td><td></td><td></td><td></td>
+       </tr>
+     
+   </table>
+ 
+           
+       
+   <h3>Slots</h3>
+   <table>
+     <tr>
+       <th>Name</th><th>Description</th>
+     </tr>
+     
+       <tr>
+         <td>(default)</td><td>table-cell and table-row components</td>
+       </tr>
+     
+   </table>
+   
+       
+       
+       
+       <h2>&lt;table-cell></h2>
+       <div>
+         
+       </div>
+       
+   <h3>Attributes</h3>
+   <table>
+     <tr>
+       <th>Name</th><th>Description</th><th>Type</th><th>Default</th>
+     </tr>
+     
+       <tr>
+         <td>type</td><td>Cell type. type="title" is used for headers. If bold text is required in body, use type="strong"</td><td>'title' | 'body' | 'strong'</td><td>'body'</td>
+       </tr>
+     
+   </table>
+ 
+       
+   <h3>Properties</h3>
+   <table>
+     <tr>
+       <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+     </tr>
+     
+       <tr>
+         <td>type</td><td>type</td><td>Cell type. type="title" is used for headers. If bold text is required in body, use type="strong"</td><td>'title' | 'body' | 'strong'</td><td>'body'</td>
+       </tr>
+     
+   </table>
+   
+       
+           
+         
+       
+       
+       
+       <h2>&lt;table-row></h2>
+       <div>
+         Table row acts as a wrapper for tr without breaking accessibility and table relations.
+       </div>
+       
+         
+       
+           
+         
+       
+       
+       
+   
+      </main>
+    </div>
+    
+  <footer>
+  </footer>
+  </body>
+</html>

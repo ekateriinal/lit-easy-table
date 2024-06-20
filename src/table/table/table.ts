@@ -3,6 +3,12 @@ import {customElement, state} from 'lit/decorators.js';
 import {TableCell} from '../table-cell/table-cell';
 import {TableRow} from '../table-row/table-row';
 
+/**
+ * A table is a wrapper component for header, rows and cells.
+ *
+ * @slot - table-cell and table-row components
+ *
+ */
 @customElement('my-table')
 export class Table extends LitElement {
   @state() private headerCells: TableCell[] = [];
